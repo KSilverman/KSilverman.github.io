@@ -1,0 +1,35 @@
+body {
+
+  background-image: url("../space.jpg") !important;
+}
+
+.login-container {
+    margin: auto;
+    width: 50%;
+    top: 25%;
+    border: 3px;
+    background-color: #2D3134;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+    display: block;
+    transform: translate(0%, 25%);
+    border-radius: 25px;
+}
+
+.login-field {
+  background-color: #74797C !important;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white !important;
+    opacity: 0.4 !important; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: white;
+}

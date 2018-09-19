@@ -10,6 +10,10 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- Add font awesome icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- init 3rd party scripts --> 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/react/<react-version>/react.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/react/<react-version>/react-dom.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/react-bootstrap/<version>/react-bootstrap.min.js"></script>
@@ -20,7 +24,7 @@
         <div class="login-container">
           <form id="theform" action="">
             <div class="page-header text-light">
-              <h1>Login Here</h1>
+              <h1>Login</h1>
             </div>
             <div class="form-group">
               <label for="username" class="text-light">Username:</label>
@@ -33,12 +37,19 @@
             <div class="checkbox">
               <label class="text-light"><input type="checkbox" name="remember"> Remember me</label>
             </div>
-            <button type="submit" class="btn btn-default">Submit</button>
+            <button type="submit" class="btn btn-default" id="submit_btn">Submit</button>
           </form>
           <br>
           <div id="alertdiv"></div>
+          <!-- footer -->
+        <footer class="page-footer">
+          <div class="row-fluid">
+            <div class="container-fluid footer-copyright text-center py-6 foot text-light">
+              <span>© 2018 Copyright: FileBrowser devloped for HP by University of Massachusetts</span>
+            </div>
+          </div>
+      </footer>
         </div>
-        <br>
       </div>
   </body>
 

@@ -15,7 +15,7 @@ $("#theform").submit(function( event ) {
     }
   });
 
-$(document).on("click", "#close_me", function() {
+$(document).on("click", "#close_me", function(event) {
   event.preventDefault();
   $("#alertdiv").fadeOut("slow", function(){
     message_active = false;

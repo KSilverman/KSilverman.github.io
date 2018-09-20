@@ -2,6 +2,16 @@ body {
   background-image: url("../bg.png") !important;
 }
 
+.team_name {
+    position: relative;
+    margin: auto;
+    text-align: center;
+    border: 3px;
+    transform: translate(0%, 120%);
+    font-family: Stencil Std, fantasy;
+    font-style: italic;
+}
+
 .login-container {
     margin: auto;
     margin-bottom: 25%;
@@ -12,7 +22,7 @@ body {
     text-align: center;
     vertical-align: middle;
     display: block;
-    transform: translate(0%, 45%);
+    transform: translate(0%, 30%);
     border-radius: 25px;
 }
 
@@ -27,6 +37,7 @@ body {
     margin-top: 10%;
     width: 50%;
     text-align: center;
+    vertical-align: middle;
 }
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
